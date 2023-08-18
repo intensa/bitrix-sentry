@@ -1,0 +1,26 @@
+{
+    "name": "intensa/sentry",
+    "type": "bitrix-module",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Intensa\\Sentry\\": "general/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Александр",
+            "email": "a.bugrov@intensa.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "sentry/sdk": "^3.5",
+        "php": ">=7.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}

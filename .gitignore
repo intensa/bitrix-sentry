@@ -1,0 +1,4 @@
+.idea/
+/lib/vendor
+/lib/.phpunit.result.cache
+/lib/tests/fixtures
